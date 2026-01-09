@@ -9,11 +9,9 @@
 
 
 
-
 /* main code */
 
 /* navbar section design strarts here */
-
 #navbar {
   max-width: 1600px;
   width: 100%;
@@ -34,12 +32,10 @@
   max-height: 60px;
   width: 100%;
 }
-
 .nav-menu {
   display: flex;
   gap: 32px;
 }
-
 .navbar-items .nav-links ul li {
   list-style-type: none;
 }
@@ -64,7 +60,6 @@
   color: #469165;
   transition: 0.8s;
 }
-
 /* navbar sec end */
 
 /* banner sec st */
@@ -73,7 +68,7 @@
   max-width: 1600px;
   width: 100%;
   margin: 0 auto;
-  height: 674px;
+  height: 675px;
   margin-bottom: 50px;
   background-image: url(./assets/hero-bg.png);
   background-position: center;
@@ -84,7 +79,6 @@
 .banner-content {
   padding:70px 120px 135px 120px;
  
-
   text-align: center;
 }
 
@@ -95,7 +89,7 @@
   padding: 8px 16px;
   color: #469165;
   background-color: #ffffff;
-  font-size: 16px;
+  font-size: 1rem;
   font-weight: 500;
   margin-top: 50px;
   margin-bottom: 16px;
@@ -144,7 +138,7 @@
   border: 2px solid #469165;
   padding: 16px;
   font-weight: 600;
-  font-size: 16px;
+  font-size: 1rem;
   margin-right: 16px;
 }
 
@@ -154,7 +148,7 @@
   border: 2px solid white;
   color: #ffffff;
   font-weight: 600;
-  font-size: 16px;
+  font-size: 1rem;
 }
 
 .banner-btn-1:hover {
@@ -187,7 +181,7 @@
 }
 
 .notes-info {
-  font-size: 16px;
+  font-size: 1rem;
   line-height: 20px;
   color: #627382;
   text-align: center;
@@ -212,8 +206,11 @@
   justify-content: center;
   align-items: center;
   box-sizing: border-box;
-  box-shadow: 0 18px 35px rgba(0, 0, 0, 0.08), 0 0 0 1px rgba(0, 0, 0, 0.03);
+  box-shadow: 0 18px 35px rgba(0, 0, 0, 0.08), 0 0 0 1px rgba(0, 0, 0, 0.05);
   border-radius: 10px;
+}
+.card:hover{
+  transform: scale(1.01);
 }
 
 .card .card-heading h3 {
