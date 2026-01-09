@@ -91,13 +91,14 @@
   background-color: #ffffff;
   font-size: 1rem;
   font-weight: 500;
-  margin-top: 50px;
-  margin-bottom: 16px;
+  margin:50px 0 16px 0;
+  border-radius: 1000px;
+  border: none;
 }
 
 .get-early-access-btn:hover {
-  transform: scale(1.1);
-  transition: 0.5s;
+  color: #ffffff;
+  background-color: #469165;;
 }
 
 .banner-content .banner-text .banner-heading-1 {
