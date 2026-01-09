@@ -8,6 +8,10 @@
 }
 
 
+
+
+/* main code */
+
 /* navbar section design strarts here */
 
 #navbar {
@@ -37,13 +41,12 @@
 }
 
 .navbar-items .nav-links ul li {
-  list-style: none;
-  display: flex;
+  list-style-type: none;
 }
 
 .navbar-items .nav-links ul li a {
   text-decoration: none;
-  font-size: 16px;
+  font-size: 1rem;
   font-weight: 500;
   color: #000000;
 }
@@ -59,7 +62,7 @@
 .btn-1:hover {
   background-color: #ffffff;
   color: #469165;
-  transition: 0.5s;
+  transition: 0.8s;
 }
 
 /* navbar sec end */
@@ -181,7 +184,7 @@
 .notes-heading {
   text-align: center;
   font-weight: bold;
-  font-size: 48px;
+  font-size: 3rem;
   margin-bottom: 16px;
 }
 
@@ -216,7 +219,7 @@
 }
 
 .card .card-heading h3 {
-  font-size: 24px;
+  font-size: 1.5rem;
   font-size: 600;
   margin-bottom: 16px;
   padding-left: 20px;
@@ -224,12 +227,12 @@
 }
 
 .card .card-info p {
-  font-size: 16px;
+  font-size: 1rem;
   line-height: 20px;
   color: #627382;
   margin-bottom: 20px;
-  padding-left: 20px;
-  padding-right: 20px;
+  padding:0 20px;
+  
 }
 .notes-card .card .card-img {
   padding: 30px;
@@ -242,6 +245,10 @@
   justify-content: center;
   align-items: center;
   margin-bottom: 16px;
+}
+.notes-card .card .card-img:hover{
+     background-color: #469165;
+    
 }
 .notes-card .card .card-img img {
   height: 30px;
@@ -322,7 +329,7 @@
 }
 
 .early-access-content {
-  padding: 80px 120px 80px 120px;
+  padding: 80px 120px;
 }
 
 .early-access-content .early-access-heading h1 {
@@ -354,24 +361,26 @@
   display: inline-flex;
   gap: 8px;
   border-radius: 5px;
-  font-size: 16px;
+  font-size: 1rem;
   font-weight: 600;
   align-items: center;
   justify-content: center;
   padding: 16px;
   color: white;
   background-color: #469165;
-  border: none;
+  border: 1px solid #469165;
+  
 }
 
 .early-access-btn:hover {
   transform: scale(1.1);
-  transition: 0.5s;
+  transition: 0.8s;
+ 
 }
 
 .early-access-content .early-access-info-2 p {
   text-align: center;
-  font-size: 16px;
+  font-size: 1rem;
   line-height: 20px;
   color: #627382;
 }
@@ -388,10 +397,9 @@
 }
 .footer-content {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
   padding: 120px;
-  gap: 800px;
 }
 #footer .social-heading h1 {
   color: #ffffff;
@@ -405,9 +413,9 @@
 }
 .copyright-text p {
   text-align: center;
-  margin-top: 30px;
-  margin-bottom: 30px;
+  margin: 30px 0;
+  
   color: #fafafa;
-  font-size: 16px;
+  font-size: 1rem;
   line-height: 24px;
 }
