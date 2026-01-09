@@ -82,7 +82,7 @@
 }
 
 .banner-content {
-  padding-right:70px 120px 135px 120px;
+  padding:70px 120px 135px 120px;
  
 
   text-align: center;
@@ -93,8 +93,6 @@
   align-items: center;
   gap: 8px;
   padding: 8px 16px;
-  border-radius: 1000px;
-  border: none;
   color: #469165;
   background-color: #ffffff;
   font-size: 16px;
@@ -341,7 +339,7 @@
 
 .early-access-content .early-access-info p {
   text-align: center;
-  font-size: 16px;
+  font-size: 1rem;
   line-height: 24px;
   color: #627382;
 }
